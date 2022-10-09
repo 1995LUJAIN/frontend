@@ -1,0 +1,30 @@
+:root{
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+section{
+    
+    height: 100vh; 
+
+}
+
+
+.div-1{
+    background-color: rgb(50, 50, 155);
+    height: 25%;
+}
+.div-2{
+    background-color: rgb(124, 85, 161);
+    height: 25%;
+}
+.div-3{
+    background-color: rgb(227, 12, 162);
+    height: 25%;
+}
+.div-4{
+    background-color:rgb(133, 169, 210);
+    height: 25%;
+}
