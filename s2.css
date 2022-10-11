@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+section{
+    
+    height: 100vh; 
+
+}
+.layout{
+    display: flex;
+    gap: 12px;
+}
+.sideNav{
+
+background-color:rgb(236, 210, 185) ;
+font-size: 20px;
+width: 30%;
+height: 100vh;
+overflow:auto ;
+overflow-x: hidden;
+padding: 12px;
+
+
+
+}
+.sideNav nav{
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+.sideNav.item {
+    border: 0;
+    text-decoration: none;
+}
+
+.layout.content{
+    width: 60%;
+    padding: 12px;
+    overflow: auto;
+    height: 100vh;
+}
+.card-section{
+    display: flex;
+}
+.card{
+
+    background-color: lightgreen;
+    height: 80px;
+    margin: 12px 16px;
+    
+}
+
+
