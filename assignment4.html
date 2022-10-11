@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form >
+      <label for="username">username</label>
+      <input type="text" placeholder="username" maxlength="20" name="username" id="username" />
+
+      <br />
+      <br />
+
+      <label>Email</label>
+      <input type="email" placeholder="Email" name="email" id="email"/>
+
+      <br />
+      <br />
+      <label for="birthdate">Birthdate</label>
+      <input type="date" placeholder="birthdate" name="birthdate" id="birthdate"/>
+
+      <br />
+      <br />
+      <label for="Registration datetime">Registration datetime</label>
+      <input type="datetime-local" placeholder="Registration datetime" name="Registration datetime" 
+      id="Registration datetime"/>
+
+      <br />
+      <br />
+      <label >Age</label>
+      <input type="number" placeholder="Age" min="0" />
+
+      <br />
+      <br />
+
+      <label>password</label>
+      <input type="password" placeholder="new password" name="password" />
+
+      <br />
+      <br />
+      <label>Upload profile picture </label>
+      <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+    
+
+      <br />
+      <br />
+      <label>courses<label><br>
+      <input type="checkbox" name="accept"/>
+      <label>html</label>
+      <input type="checkbox" name="accept"/>
+      <label>Css</label>
+      <input type="checkbox" name="accept"/>
+      <label>javascript</label>
+
+     <br>
+     <br>
+      <input type="radio" name="gender" value="male" />
+      <label>male</label>
+      <br />
+      <br />
+
+      <input type="radio" name="gender" value="female" />
+      <label>female</label>
+      <br />
+      <br />
+
+      <textarea placeholder="note" rows="12" cols="100"></textarea>
+      <br>
+      <label>Dropdown list</label>
+      <select  name="select">
+        <option disabled selected>~~select course~~</option>
+<optgroup label="Frontend">
+    <option value="html">Html</option>
+    <option value="Css">Css</option>
+    <option value="javascript">javascript</option>
+
+</optgroup>
+<optgroup label="Backend">
+    <option value="C#">C#</option>
+    <option value="java">java</option>
+    <option value=".Net">.Net</option>
+
+</optgroup>
+
+
+      </select>
+      <br>
+      <br>
+
+      <a href="https://www.w3schools.com/" target="_blank" >w3 shools</a>
+<br>
+<br>
+      <input type="submit"  value="sign up" />
+      <input type="reset"/>
+    </form>
+<br>
+<br>
+
+
+
+
+
+
+  </body>
+</html>
