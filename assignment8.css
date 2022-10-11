@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     
@@ -15,10 +18,14 @@ padding: 20px 20px 20px 20px;
 background-color:rgb(180, 100, 25) ;
 font-size: 20px;
 width: 30%;
-height: calc(100vh- 40px) ;
+height: 100vh ;
 overflow-y:auto ;
 overflow-x: hidden;
 max-width: 200px;
+border: 3px solid black;
+flex: auto;
+flex-grow: 1;
+flex-shrink: 1;
 
 
 }
@@ -38,7 +45,7 @@ gap: 8px;
     padding: 20px 20px 20px 20px;
     width: 60%;
     overflow: auto;
-    height: calc(100vh- 40px) ;
+    height: 100vh;
 }
 
 .card-section{
