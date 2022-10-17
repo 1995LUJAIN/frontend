@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+display: flex;
+width: auto;
+height: auto;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+align-items: center;
+}
+.child-grow-1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    flex: 1;
+
+}
+.container2{
+    
+display: flex;
+width: auto;
+height: auto;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+align-items: center;
+
+}
