@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
