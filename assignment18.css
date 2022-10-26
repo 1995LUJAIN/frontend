@@ -30,10 +30,11 @@ padding: 1.2rem;
     display: flex;
     max-width: 1100px;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
     text-decoration: none;
-    color: var(--light-blue);
+    color: var(--purple);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8rem;
@@ -53,11 +54,9 @@ padding: 1.2rem;
 .navigation a:hover{
     color: var(--purple);
 }
-img{
-    width:100%;
-}
 
 main{
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,11 +70,12 @@ section{
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-image: url(/img/web-design.jpg);
+    background-image: url(/img/marketer\ using\ the\ best\ portfolio\ websites\ to\ showcase\ an\ impressive\ digital\ portfolio.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     align-items: center;
+    padding: 0 0 0 160px;
     
 }
 .main > div {
@@ -83,13 +83,13 @@ section{
     max-width: 1000px;
 }
 .main h2{
-color: var(--white);
-font-size: 1.2rem;
-font-weight: 400;
+color: var(--dark-blue);
+font-size: 1.6rem;
+font-weight: 550;
 }
 .main span{
     display: inline-block;
-    color: var(--light-blue);
+    color: var(--purple);
     font-size: 3rem;
     font-weight: 700;
     }
@@ -99,7 +99,7 @@ font-weight: 400;
        
 .main-btn{
     color: var(--white);
-    background-color: var(--light-blue);
+    background-color: var(--purple);
     border-radius: 14px;
     font-size: 1rem;
     font-weight: 600;
@@ -114,7 +114,7 @@ font-weight: 400;
     transform: scale(1.1);
 }
 .social-icons a {
-    color: var(--dark-blue);
+    color: var(--white);
     font-size: 1.7rem;
     margin-inline-start: 10px;
 
@@ -122,25 +122,25 @@ font-weight: 400;
 /*services*/
 .title{
     text-align: center;
-    color: var(--light-blue);
+    color: var(--purple);
     font-size: 1.8rem;
-    margin: 1rem 0;
+    margin: 1rem 0 3rem;
 
 }
+
 .content{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1.2rem;
     justify-content: center;
 
 }
 .cards{
     min-height: 70vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    
 }
+
 .card{
     background-color: #fff;
     flex-basis: 400px;
@@ -154,11 +154,11 @@ font-weight: 400;
     transform:scale(1.1);
 }
 .card .icon{
-    color: var(--light-blue);
-    font-size: 8em;
+    color: var(--purple);
+    font-size: 6em;
 }
 .card-info h3{
-color: var(--light-blue);
+color: var(--purple);
 
 }
 .project-section{
@@ -189,7 +189,7 @@ max-height: 200px;
 border-radius: 8px;
 }
 .project-card-info{
-    margin-top: 12px;
+    
     padding: 1rem;
 }
 .project-title{
@@ -212,7 +212,7 @@ padding: 3rem 0;
     font-weight: 700;
 }
 .footer-title span{
-    color: var(--light-blue);
+    color: var(--purple);
 }
 @media(max-width:1000px){
     .main{
